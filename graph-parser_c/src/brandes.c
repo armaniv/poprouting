@@ -789,7 +789,7 @@ void compute_heuristic_wo_scale(struct graph *g,
 
                     }
                 }
-                bc[i] -= weight_sum;
+                bc[i] -= 2.0*(weight_sum);
             }
         }
 
