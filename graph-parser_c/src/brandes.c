@@ -296,7 +296,7 @@ double * betweeness_brandes(struct graph *g,
         scale = 1 / (((double) (node_num)) * ((double) (node_num - 1)));
 
     else if((normalized==true)&&(endpoints==false))
-        scale = 1 / ((((double) (node_num - 1)) * ((double) (node_num - 2)));
+        scale = 1 / (((double) (node_num - 1)) * ((double) (node_num - 2)));
 
     else
         scale = 0.5;
